@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vennesa - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+        <p>Software Engineer | SEO Specialist |Tech Enthusiast</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="Projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <div class="image-content">
+                <img src="Images/Me.png" alt="Profile Picture">
+            </div>
+            <div class="text-container">
+                <h2>Welcome to My Portfolio</h2>
+                <p>A passionate hardware engineer with expertise in IoT, cybersecurity, and web development.</p>
+                <p>Bridging the gap between hardware and software to create innovative solutions.</p>
+                <div class="hero-buttons">
+                    <a href="projects.html" class="btn">View My Work</a>
+                    <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="about-content">
+            <div class="text-content">
+                <h2>Vennesa Wangari</h2>
+                <p><strong>Software Engineer | Robotics Club Member</strong></p>
+                <p>Passionate about Software Engineering, Cybersecurity,Search Engine Optimization and Web Development. 
+                Currently a student at St. Paul's University, continuously learning and improving my technical skills.</p>
+    
+                <h3 style="color:black">Certificates & Certifications</h3>
+                <ul class="certificates-list">
+                    <li>✔ Cisco Networking Essentials</li>
+                    <li>✔ Google Cybersecurity Certificate</li>
+                    <li>✔ Responsive Web Design – freeCodeCamp</li>
+                    <li>✔ Git and GitHub Mastery</li>
+                </ul>
+    
+            </div>
+    
+            <div class="skills-content">
+                <h3><strong>Technical Skills</strong> </h3>
+                <ul class="skills-list">
+                    <li>🌐 Web Development (HTML, CSS, JavaScript, React, Node.js)</li>
+                    <li>🐍 Programming 
+                        Languages (Python, Java, PHP)</li>
+                    <li>🗄️ Database Management (SQL, MongoDB)</li>
+                    <li>📂 Version Control (GitHub)</li>
+                    <li>🖥️ IDEs (VS Code, PyCharm)</li>
+                    <h3>Soft Skills</h3>
+                    <ul class="soft-skills-list">
+                        <li>💡 Strong Problem-Solving & Team Leadership</li>
+                        <li>Adaptibility and Flexibility</li>
+                        <li>Effective Communication</li>
+                    </ul>
+
+                    </ul>
+           
+            </div>
+        </div>
+    </section>
+    <section class="projects">
+        <h2 class="section-title">My Projects</h2>
+    
+        <div class="project-card">
+            <div class="project-icon">🏠</div>
+            <h3>IoT Home Automation</h3>
+            <p>A smart home system using IoT and Raspberry Pi for real-time control of lighting, temperature, and security.</p>
+        </div>
+    
+        <div class="project-card">
+            <div class="project-icon">🛡️</div>
+            <h3>Web Security Dashboard</h3>
+            <p>An interactive dashboard for monitoring and visualizing cybersecurity threats and vulnerabilities across a network.</p>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Get in Touch</h2>
+        <form id="contactForm" action="save_message.php" method="POST">
+            <div class="input-group">
+                <input type="text" name="name" id="name" placeholder="Your Name" required>
+                <small class="error-message"></small>
+            </div>
+    
+            <div class="input-group">
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+                <small class="error-message"></small>
+            </div>
+    
+            <div class="input-group">
+                <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                <small class="error-message"></small>
+            </div>
+    
+            <button type="submit">Send Message</button>
+            <p id="formMessage" class="hidden"></p>
+        </form>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Vennesa Wangari | All Rights Reserved</p>
+            
+            <ul class="footer-icons">
+                <li><a href="mailto:vennesa919@gmail.com" title="Email"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="tel:+254112451959" title="Call"><i class="fas fa-phone"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/vennesa-njuguna-9" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <!-- FontAwesome for Icons -->
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+</footer> 
+    
+</body>
+</html>

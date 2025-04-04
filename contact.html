@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h2>Get in Touch</h2>
+        <form id="contactForm" action="save_message.php" method="POST">
+            <div class="input-group">
+                <input type="text" name="name" id="name" placeholder="Your Name" required>
+                <small class="error-message"></small>
+            </div>
+
+            <div class="input-group">
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+                <small class="error-message"></small>
+            </div>
+
+            <div class="input-group">
+                <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                <small class="error-message"></small>
+            </div>
+
+            <button type="submit">Send Message</button>
+            <p id="formMessage" class="hidden"></p>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Vennesa Wangari | All Rights Reserved</p>
+            
+            <ul class="footer-icons">
+                <li><a href="mailto:vennesa919@gmail.com" title="Email"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="tel:+254112451959" title="Call"><i class="fas fa-phone"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/vennesa-njuguna-9" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <!-- FontAwesome for Icons -->
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+</footer> 
+
+    <script src="script.js"></script>
+</body>
+</html>
