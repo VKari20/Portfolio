@@ -3,7 +3,8 @@
 Welcome to my personal portfolio website! This project showcases who I am as a **Software Engineer**, highlighting my **skills**, **certifications**, and **projects** in web development, cybersecurity, and hardware engineering.
 
 ## Live Site
-You can view the portfolio [here](#) (replace with actual link when deployed).
+You can view the portfolio https://vkari20.github.io/Portfolio/
+
 
 ---
 
