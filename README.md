@@ -21,4 +21,4 @@ This project is open for inspiration and educational purposes. Attribution appre
 
 ---
 
-> Designed & developed with 💚 by Vennesa Wangari.# MyPortfolio
+> Designed & developed with 💚 by Vennesa Wangari.
