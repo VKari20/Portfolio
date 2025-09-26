@@ -18,11 +18,33 @@
     </header>
 
     <section class="contact">
-        <h2>Get in Touch</h2>
+    <h2>LET'S CONNECT </h2>
+    <div class="contact-container">
+        <!-- Left Side: Illustration + Text -->
+        <div class="contact-info">
+            <img src="Images/image (2).png" alt="Contact Illustration" class="contact-illustration">
+            <p>I’m always excited to connect with new people — whether it’s to talk tech, share ideas, or explore opportunities. Drop me a message below, or reach out on LinkedIn/GitHub. Let’s start a conversation!</p>
+            <P>OR WRITE AN EMAIL</P>
+            <a href="mailto:vennesa919@gmail.com" class="email-link">vennesa919@gmail.com</a>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/vennesa-njuguna/"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <!-- Right Side: Contact Form -->
+         <div class="contact-right" >
+            <p class="form-intro"><strong><br> Fill in your details below</p>
         <form id="contactForm" action="save_message.php" method="POST">
             <div class="input-group">
                 <input type="text" name="name" id="name" placeholder="Your Name" required>
                 <small class="error-message"></small>
+            </div>
+            <div class="input-group">
+                <input type="text" name="phone" id="phone number" placeholder="Phone Number" required>
+                <small class="error-message"></small>
+
             </div>
 
             <div class="input-group">
@@ -36,13 +58,20 @@
             </div>
 
             <button type="submit">Send Message</button>
-            <p id="formMessage" class="hidden"></p>
+            <p id="formMessage">Message sent! I’ll get back to you soon 🚀</p>
         </form>
-    </section>
+    </div>
+</div>
+    <!-- Quick Links -->
+    
+
+    <!-- Playful Footer -->
+    <p class="fun-footer">Prefer coffee over email? Let’s chat about that too ☕</p>
+</section>
 
     <footer>
         <div class="footer-container">
-            <p>&copy; 2025 Vennesa Wangari | All Rights Reserved</p>
+            <p>&copy; 2025 Vennesa Njuguna | All Rights Reserved</p>
             
             <ul class="footer-icons">
                 <li><a href="mailto:vennesa919@gmail.com" title="Email"><i class="fas fa-envelope"></i></a></li>
@@ -57,5 +86,16 @@
 </footer> 
 
     <script src="script.js"></script>
+    <script>
+const form = document.getElementById('contactForm');
+const formMessage = document.getElementById('formMessage');
+
+form.addEventListener('submit', function(e){
+    e.preventDefault();
+    // Simulate sending
+    formMessage.style.display = 'block';
+    form.reset();
+});
+</script>
 </body>
 </html>

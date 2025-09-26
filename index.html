@@ -21,13 +21,21 @@
     <section class="hero">
         <div class="overlay"></div>
         <div class="hero-content">
-            <div class="image-content">
+            <div class="image-content scroll-fade-right">
                 <img src="Images/Me.png" alt="Profile Picture">
             </div>
             <div class="text-container">
                 <h2>Welcome to My Portfolio</h2>
-                <p>A passionate hardware engineer with expertise in IoT, cybersecurity, and web development.</p>
-                <p>Bridging the gap between hardware and software to create innovative solutions.</p>
+                <h3>Hola! Yo soy Vennesa Njuguna</h3>
+            <p>
+                A software developer who loves solving problems and learning new things.  
+                Whether it’s coding, exploring design, or collaborating on fresh ideas,  
+                I enjoy the process as much as the outcome.  
+            </p>
+            <p>
+                Have a look around, and feel free to reach out — I’d love to connect!
+            </p>
+
                 <div class="hero-buttons">
                     <a href="Projects.html" class="btn">View My Work</a>
                     <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
@@ -36,42 +44,82 @@
         </div>
     </section>
     <section class="about">
-        <div class="about-content">
-            <div class="text-content">
-                <h2>Vennesa Wangari</h2>
-                <p><strong>Software Engineer | Robotics Club Member</strong></p>
-                <p>Passionate about Software Engineering, Cybersecurity,Search Engine Optimization and Web Development. 
-                Currently a student at St. Paul's University, continuously learning and improving my technical skills.</p>
-    
-                <h3 style="color:black">Certificates & Certifications</h3>
-                <ul class="certificates-list">
-                    <li>✔ Cisco Cybersecurity Essentials</li>
-                    <li>✔ UI/UX Training Certificate at SkyGirls</li>
-                    <li>✔ React native Hackathon Certificate by Oky</li>
-                </ul>
-    
-            </div>
-    
-            <div class="skills-content">
-                <h3><strong>Technical Skills</strong> </h3>
-                <ul class="skills-list">
-                    <li>🌐 Web Development (HTML, CSS, JavaScript, React, Node.js)</li>
-                    <li>🐍 Programming 
-                        Languages (Python, Java, PHP)</li>
-                    <li>🗄️ Database Management (SQL, MongoDB)</li>
-                    <li>📂 Version Control (GitHub)</li>
-                    <li>🖥️ IDEs (VS Code, PyCharm)</li>
-                    <h3>Soft Skills</h3>
-                    <ul class="soft-skills-list">
-                        <li>Strong Problem-Solving & Team Leadership</li>
-                        <li>Adaptibility and Flexibility</li>
-                        <li>Effective Communication</li>
-                    </ul>
+        <!-- Certifications + Skills -->
+  <div class="about-block certs">
+    <h2> Certifications</h2>
+    <div class="cert-grid">
+      <div class="cert-card">
+        <img src="Images/CyberEssentials.png" alt="Cisco Badge">
+        <p>Cisco Cybersecurity Essentials</p>
+      </div>
+      <div class="cert-card">
+        <img src="Images/aws badge.png" alt="AWS Badge">
+        <p>AWS Cloud Practitioner</p>
+      </div>
+    </div>
 
-                    </ul>
-           
-            </div>
-        </div>
+    <hr class="leaf-separator">
+
+    <!-- Skills -->
+    <div class="about-block skills scroll fade">
+
+    <h2>Technical Skills</h2>
+
+
+    <div class="skill-category">
+      <h3>Frontend</h3>
+      <ul>
+        <li><i class="devicon-react-original colored"></i> React</li>
+        <li><i class="devicon-html5-plain colored"></i> HTML5</li>
+        <li><i class="devicon-css3-plain colored"></i> CSS3</li>
+        <li><i class="devicon-javascript-plain colored"></i> JavaScript</li>
+        <li><i class="devicon-bootstrap-plain colored"></i> Bootstrap</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Backend</h3>
+      <ul>
+        <li><i class="devicon-nodejs-plain colored"></i> Node.js</li>
+        <li><i class="devicon-express-original colored"></i> Express.js</li>
+        <li><i class="devicon-python-plain colored"></i> Python</li>
+        <li><i class="devicon-php-plain colored"></i> PHP</li>
+        <li><i class="devicon-java-plain colored"></i> Java</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Databases</h3>
+      <ul>
+        <li><i class="devicon-mysql-plain colored"></i> MySQL</li>
+        <li><i class="devicon-mongodb-plain colored"></i> MongoDB</li>
+        <li><i class="devicon-postgresql-plain colored"></i> PostgreSQL</li>
+
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Tools</h3>
+      <ul>
+        <li><i class="devicon-github-original"></i> GitHub</li>
+        <li><i class="devicon-vscode-plain colored"></i> VS Code</li>
+        <li><i class="devicon-figma-plain colored"></i> Figma</li>
+        <li><i class="devicon-wordpress-plain colored"></i> WordPress
+        <li><i class="devicon-docker-plain colored"></i> Docker</li>
+      </ul>
+    </div>
+    <div class="skill-category">
+  <h2>Soft Skills</h2>
+  <ul>
+    <li><i class="fas fa-users"></i> Teamwork & Collaboration</li>
+    <li><i class="fas fa-lightbulb"></i> Problem-Solving</li>
+    <li><i class="fas fa-comments"></i> Communication</li>
+    <li><i class="fas fa-sync-alt"></i> Adaptability</li>
+    <li><i class="fas fa-tasks"></i> Time Management</li>
+  </ul>
+</div>
+
+  </div>
     </section>
     <section class="projects">
         <h2 class="section-title">My Projects</h2>
@@ -100,8 +148,16 @@
                 </p>
         </div>
     </section>
+
     <section class="contact">
-        <h2>Get in Touch</h2>
+       <h2>Get in Touch</h2>
+      <div>
+        <div class="contact-info">
+            <img src="Images/image (2).png" alt="Contact Illustration" class="contact-illustration">
+            <p>I’m always excited to connect with new people — whether it’s to talk tech, share ideas, or explore opportunities. </p>
+              <p> Drop me a message below, or reach out on LinkedIn/GitHub. Let’s start a conversation!</p>
+      </div>
+       
         <form id="contactForm" action="save_message.php" method="POST">
             <div class="input-group">
                 <input type="text" name="name" id="name" placeholder="Your Name" required>
@@ -120,11 +176,20 @@
     
             <button type="submit">Send Message</button>
             <p id="formMessage" class="hidden"></p>
+
         </form>
+        <p class="coffee-line" style="color: beige;">Prefer coffee over email? Let’s chat about that too ☕</p>
     </section>
+            
+        </div>
+    </div>
+</section>
+
+
+</section>
     <footer>
         <div class="footer-container">
-            <p>&copy; 2025 Vennesa Wangari | All Rights Reserved</p>
+            <p>&copy; 2025 Vennesa Njuguna | All Rights Reserved</p>
             
             <ul class="footer-icons">
                 <li><a href="mailto:vennesa919@gmail.com" title="Email"><i class="fas fa-envelope"></i></a></li>
@@ -136,6 +201,24 @@
     
     <!-- FontAwesome for Icons -->
     <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+    <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const elements = document.querySelectorAll(".scroll-fade-left, .scroll-fade-right");
+
+  const revealOnScroll = () => {
+    elements.forEach(el => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 100) {
+        el.classList.add("show");
+      }
+    });
+  };
+
+  window.addEventListener("scroll", revealOnScroll);
+  revealOnScroll(); // Run on load
+});
+</script>
+
 </footer> 
     
 </body>
